@@ -13,7 +13,7 @@ body{
 }
 .contact h2{
     font-size: 50px;
-    text-shadow: 2px 2px rgb(92, 225, 248);
+    text-shadow: 2px 2px #5ce1f8;
     text-align: center;
     margin-bottom: 10px;
 }
@@ -27,7 +27,49 @@ form .input-box{
     display: flex;
     justify-content: space-between;
 }
+.input-box .input-field{
+    width: 49%;
+}
+.field .item{
+    width: 100%;
+    padding: 18px;
+    background: transparent;
+    border: 2px solid black;
+    box-shadow: 2px 2px 10px black;
+    color: #a1fff3;
+    outline: none;
+    border-radius: 6px;
+    font-size: 20px;
+    margin: 12px 0;
+}
+.item::placeholder{
+    color: rgb(139, 180, 180);
+    font-size: 20px;
+}
 
+form .textarea-field .item{
+    resize: none;
+}
+
+form button{
+    margin-top: 12px;
+    padding: 12px 32px;
+    background: #02b8d8;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0px 0px 10px rgb(202, 202, 202);
+    font-size: 22px;
+    font-weight: 600;
+    color: black;
+    transition: .5s;
+    cursor: pointer;
+}
+
+form button:hover{
+    box-shadow: none;
+    background: #5ce1f8;
+}
 
    
 
